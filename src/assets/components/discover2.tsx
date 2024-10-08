@@ -1,33 +1,33 @@
 import React from "react";
-import game1 from "../images/game1.png";
-import discover1 from "../images/discover1.png";
-import discover2 from "../images/discover2.png";
-import discover3 from "../images/discover3.png";
+import game2 from "../images/game2.png";
+import discovers1 from "../images/discovers1.png";
+import discovers2 from "../images/discovers2.png";
+import discovers3 from "../images/discovers3.png";
 import discover4 from "../images/discover4.png";
 
 import { useNavigate } from "react-router-dom";
 
-export const Discover = () => {
+export const Discovers = () => {
   const navigate = useNavigate();
 
   const handle = () => {
     navigate("/");
   };
   return (
-    <div className="flex  ">
+    <div className="flex ">
       <div>
         <img
-          src={game1}
+          src={game2}
           alt="game1"
           className="w-screen md:h-screen brightness-50 fixed "
         />
       </div>
-      <div className="absolute  md:text-4xl md:inset-12 inset-5 md-auto ">
+      <div className="absolute  md:text-4xl md:inset-12 inset-5 md:m-auto ">
         
-        <p className="text-white md:text-5xl "> ALABAY HERITAGE </p>
-        <span className="font-sans text-green-300 md:text-3xl">
+        <p className="text-white md:text-5xl "> ALABAY GUARDIAN </p>
+        <span className="font-sans text-[#A4A8FF] md:text-3xl">
           {" "}
-          THE LOST ADVENTURE{" "}
+          SHEPHERD OF THE STEPPES{" "}
         </span>
         
         <p className="font-sans text-white md:w-96 md:text-lg font-bold mt-4">
@@ -35,41 +35,40 @@ export const Discover = () => {
           ancient secrets of its ancestors.{" "}
         </p>
         <button
-          className="font-sans bg-green-400 md:text-base text-sm md:w-32 md:h-9 w-20 h-5 rounded-2xl font-bold mt-4"
+          className="font-sans md:h-9 bg-[#A4A8FF] md:text-base text-sm md:w-32 h-5 w-20 rounded-2xl font-bold mt-4"
           onClick={handle}
         >
           play
         </button>
-        <div>
 
-        <div className=" font-bold font-sans uppercase md:mt-20 text-center md:text-left mt-10 text-2xl md:text-white text-slate-600">
-          <span className="text-green-300 ">game</span> preview
+        <div className="font-bold font-sans uppercase md:mt-20 text-center md:text-left mt-10 text-2xl md:text-white text-slate-600">
+          <span className="text-[#A4A8FF] ">game</span> preview
         </div>
-        <div className=" md:grid md:grid-cols-4 md:gap-5 md:w-[1200px] mt-10">
+        <div className="md:grid md:grid-cols-4 md:gap-5 md:w-[1200px] mt-10">
           <div>
-            <img src={discover1} alt="discover" className="h-40 md:w-[300px] w-96 mt-5 md:mt-0" />
+            <img src={discovers1} alt="discover" className="h-40 md:w-[300px] w-96 mt-5 md:mt-0" />
           </div>
           <div>
-            <img src={discover2} alt="discover" className="h-40 md:w-[250px] w-96 mt-5 md:mt-0" />
+            <img src={discovers2} alt="discover" className="h-40 md:w-[250px] w-96 mt-5 md:mt-0" />
           </div>
           <div>
-            <img src={discover3} alt="discover" className="h-40 md:w-[250px] mt-5 w-96 md:mt-0" />
+            <img src={discovers3} alt="discover" className="h-40 md:w-[250px] w-96 mt-5 md:mt-0" />
           </div>
           <div>
-            <img src={discover4} alt="discover" className="h-40 md:w-[300px] mt-5 w-96 md:mt-0" />
+            <img src={discover4} alt="discover" className="h-40 md:w-[300px] w-96 mt-5 md:mt-0" />
           </div>
         </div>
 
-        <div className="hidden md:block font-sans md:text-white text-green-700 mt-20 font-semibold">
-          <div className=" text-green-300 font-medium text-3xl">FEATURES</div>
+        <div className="hidden md:block font-sans text-white mt-20 font-semibold">
+          <div className=" text-[#A4A8FF] font-medium text-3xl">FEATURES</div>
           <div className="text-lg">
             <p className="mt-10">
-              Explore a variety of landscapes, including <span className=" text-green-300 "> mountains, forests,
-              deserts,</span> and <span className=" text-green-300 ">ancient ruins.</span>
+              Explore a variety of landscapes, including <span className=" text-[#A4A8FF] "> mountains, forests,
+              deserts,</span> and <span className=" text-[#A4A8FF] ">ancient ruins.</span>
             </p>
 
             <p className="mt-5">
-              Use the Alabay's <span className=" text-green-300 ">abilities</span> to solve <span className=" text-green-300 ">puzzles</span> that involve moving
+              Use the Alabay's <span className=" text-[#A4A8FF] ">abilities</span> to solve <span className=" text-[#A4A8FF] ">puzzles</span> that involve moving
               objects, activating mechanisms, or finding hidden clues.
             </p>
 
@@ -87,13 +86,13 @@ export const Discover = () => {
             <p className="mt-5">Challenge Modes:</p>
             <p className="ml-5">
               {" "}
-                <span className=" text-green-300 "> - Time Trials:</span> Compete in special timed challenges where the
+                <span className=" text-[#A4A8FF] "> - Time Trials:</span> Compete in special timed challenges where the
               Alabai must navigate through complex mazes or complete puzzles
               within a time limit.
             </p>
             <p className="ml-5">
               {" "}
-                <span className=" text-green-300 "> - Exploration Mastery:</span> A mode that rewards players for fully
+                <span className=" text-[#A4A8FF] "> - Exploration Mastery:</span> A mode that rewards players for fully
               exploring every nook and cranny of the game’s world, uncovering
               all secrets
             </p>
@@ -119,7 +118,7 @@ export const Discover = () => {
 
             </div>
         </div>
-      </div></div>
-            </div>
+      </div>
+    </div>
   );
 };

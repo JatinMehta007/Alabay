@@ -6,10 +6,12 @@ import { useNavigate } from "react-router-dom";
 export const Games = () => {
   const slides = [
     {
-      foreground: game1, link:'/base'
+      foreground: game1,
+      link: "/discover1",
     },
     {
       foreground: game2,
+      link: "/discover2",
     },
   ];
 
@@ -31,21 +33,24 @@ export const Games = () => {
   };
   return (
     <>
-      <div className="bg-gradient-to-r  from-yellow-500 via-yellow-200 to-yellow-500">
+      <div className="bg-gradient-to-r w-screen md:w-auto from-yellow-500 via-yellow-200 to-yellow-500">
         <div className=" text-white text-center">
-          <p className="text-8xl">GAMES</p>
-          <p className="text-4xl text-slate-800">
+          <p className="md:text-8xl text-4xl text-orange-500">GAMES</p>
+          <p className="md:text-4xl text-2xl text-slate-800">
             Stay tuned for upcoming games !
           </p>
         </div>
-        <div className="w-[700px] h-[600px] m-auto py-16 px-4 relative group flex justify-center items-center">
+        <div className="md:w-[700px] md:h-[600px] w-96 h-96 m-auto py-16 px-4 relative group flex justify-center items-center">
           <div
             style={{
               backgroundImage: `url(${slides[currentIndex].foreground})`,
             }}
             className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
           >
-            <button className="absolute inset-[180px]  m-auto mt-48 bg-purple-800 text-white font-bold py-2 px-4 rounded-2xl flex items-center justify-center text-2xl" onClick={handleButtonClick}>
+            <button
+              className="absolute md:inset-[180px] inset-[120px] mt-28 ml-7   md:m-auto md:mt-48 bg-purple-800 text-white font-bold md:py-2 md:px-4 px-4 rounded-2xl flex items-center justify-center md:text-2xl"
+              onClick={handleButtonClick}
+            >
               Discover
             </button>
           </div>
@@ -86,8 +91,7 @@ export const Games = () => {
           </div>
         </div>
       </div>
+      <div></div>
     </>
   );
 };
-
-// export default App;

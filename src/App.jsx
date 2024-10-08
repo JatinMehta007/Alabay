@@ -5,8 +5,9 @@ import {
   Route
 } from 'react-router-dom'
 import { Home } from './assets/components/home'
-import { Button } from './assets/components/button';
+import { Discovers } from './assets/components/discover2';
 import { Discover } from './assets/components/discover1';
+
 
 function App() {
   return (
@@ -14,9 +15,11 @@ function App() {
      <Routes>
       <Route path='/' element={<Home/>}></Route>
 
-      <Route path='/base' element={<Button/>}></Route>
+      <Route path='/discover1' element={<Discover/>}></Route>
 
-      <Route path='/bases' element={<Discover/>}></Route>
+      <Route path='/discover2' element={<Discovers/>}></Route>
+      
+
      </Routes>
      </BrowserRouter>
    )
