@@ -52,7 +52,7 @@ export const Home = () => {
 
       {/* creating a scroll bar function */}
       <div className="flex justify-center items-center ">
-        <div className="absolute md:text-4xl text-sm  md:bg-gradient-30-bottom sm:w-[1326px]  md:bottom-[-650px] bottom-[60px]">
+        <div className="absolute md:text-4xl text-sm  md:bg-gradient-30-bottom sm:w-[1326px]  md:bottom-[-650px] bottom-[300px]">
           <div className="bg-gradient-to-r  from-yellow-500 via-yellow-200 to-yellow-500 md:grid md:grid-cols-2 rounded-2xl rounded-b-none ">
             <div>
               <div className="md:w-32 md:h-3 md:ml-[570px]  md:mt-4  md:bg-yellow-50 md:rounded-full"></div>
