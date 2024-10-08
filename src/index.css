@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'CHEESEBURGA';
+  src: url('./assets/fonts/CHEESEBURGA-demo.ttf');
+}
+
+body{
+  font-family: 'CHEESEBURGA', sans-serif;
+  
+}
+
