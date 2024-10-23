@@ -17,6 +17,9 @@ export const Social = () => {
           <img src={social2} alt="" className=" md:w-[600px] md:h-[600px]" />
     </div>
         </div>
+        <div className="font-mono text-lg text-center font-bold text-slate-600">
+        ® 2024 Jatin Kumar Mehta
+        </div>
       </div>
     </>
   );
