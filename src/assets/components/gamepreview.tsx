@@ -13,17 +13,17 @@ export const GamePreview=()=>{
         </div>
         <div className="flex justify-center items-center">
 
-        <div className="md:grid md:grid-cols-3 md:gap-5 md:w-[1200px] mt-5 md:mt-10"   >
+        <div className="md:grid md:grid-cols-3 md:gap-5 md:w-[90%] mt-5 md:mt-10"   >
             <div>
-            <img src={preview1} alt="" className="md:w-[400px] w-72 h-72  mt-10 md:mt-0"/>
+            <img src={preview1} alt="" className="md:w-[90%] w-72 h-72  mt-10 md:mt-0"/>
             </div>
             <div>
 
-            <img src={preview2} alt="" className="md:w-[400px] w-72 h-72   mt-10 md:mt-0"/>
+            <img src={preview2} alt="" className="md:w-[90%] w-72 h-72   mt-10 md:mt-0"/>
             </div>
             
             <div>
-            <img src={preview3} alt=""  className="md:w-[400px] w-72 h-72   mt-10 md:mt-0"/>
+            <img src={preview3} alt=""  className="md:w-[90%] w-72 h-72   mt-10 md:mt-0"/>
         </div>
             </div>
             </div>

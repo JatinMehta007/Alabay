@@ -55,7 +55,7 @@ export const Button = () => {
 
       <div className="grid grid-cols-3 mt-11">
         {/* first image */}
-        <div className="w-[320px] h-[170px] ml-56 relative group  flex justify-center items-center">
+        <div className="w-[320px] h-[170px] ml-56 md:ml-3 xl:ml-56 relative group  flex justify-center items-center">
           <div
             style={{
               backgroundImage: `url(${slides[getSlideIndex(0)].background})`,
@@ -88,7 +88,7 @@ export const Button = () => {
           </div>
         </div>
         {/* first image */}
-        <div className="w-[320px] h-[170px] ml-28   flex justify-center items-center">
+        <div className="w-[320px] h-[170px] ml-28 md:ml-4 xl:ml-28 flex justify-center items-center">
           <div
             style={{
               backgroundImage: `url(${slides[getSlideIndex(1)].background})`,
@@ -104,7 +104,7 @@ export const Button = () => {
           </div>
         </div>
         {/* first image */}
-        <div className="w-[320px] h-[170px]  relative group flex justify-center items-center">
+        <div className="md:w-[300px] xl:w-[320px] h-[170px] md:ml-5 xl:ml-0  relative group flex justify-center items-center">
           <div
             style={{
                 backgroundImage: `url(${slides[getSlideIndex(2)].background})`,
@@ -115,7 +115,7 @@ export const Button = () => {
               style={{
                   backgroundImage: `url(${slides[getSlideIndex(2)].foreground})`,
                 }}
-                className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
+                className="w-full h-full rounded-2xl   bg-center bg-cover duration-500"
             ></div>
             <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
               <svg

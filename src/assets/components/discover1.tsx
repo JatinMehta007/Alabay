@@ -47,16 +47,16 @@ export const Discover = () => {
         </div>
         <div className=" md:grid md:grid-cols-4 md:gap-5 md:w-[1200px] mt-10">
           <div>
-            <img src={discover1} alt="discover" className="h-40 md:w-[300px] w-96 mt-5 md:mt-0" />
+            <img src={discover1} alt="discover" className="h-40 md:[250px] xl:w-[300px] w-96 mt-5 md:mt-0" />
           </div>
           <div>
-            <img src={discover2} alt="discover" className="h-40 md:w-[250px] w-96 mt-5 md:mt-0" />
+            <img src={discover2} alt="discover" className="h-40 md:[250px] xl:w-[300px] w-96 mt-5 md:mt-0" />
           </div>
           <div>
-            <img src={discover3} alt="discover" className="h-40 md:w-[250px] mt-5 w-96 md:mt-0" />
+            <img src={discover3} alt="discover" className="h-40 md:[250px] xl:w-[300px] mt-5 w-96 md:mt-0" />
           </div>
           <div>
-            <img src={discover4} alt="discover" className="h-40 md:w-[300px] mt-5 w-96 md:mt-0" />
+            <img src={discover4} alt="discover" className="h-40 md:[250px] xl:w-[300px] md:[250px] mt-5 w-96 md:mt-0" />
           </div>
         </div>
 

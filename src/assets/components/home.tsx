@@ -15,17 +15,17 @@ export const Home = () => {
   return (
     <>
       <div>
-        <div className="md:w-screen md:h-screen   flex  items-center justify-center fixed">
+        <div className="xl:w-screen xl:h-screen    flex  items-center justify-center fixed">
           <img src={logo} alt="logo"  className="w-screen "/>
-          <div className="absolute md:text-8xl text-2xl  text-center uppercase top-0 md:m-6 m-4 text-slate-900  ">
+          <div className="absolute md:text-7xl xl:text-8xl text-2xl  text-center uppercase top-0 md:m-6 m-4 text-slate-900  ">
             welcome to alabay world
           </div>
           <div
-            className="absolute top-3 md:text-8xl text-2xl bg-gradient-to-b from-[#FFF280] to-[#7EFF5E] text-transparent bg-clip-text  text-center uppercase md:font-bold text-stroke-2 sm:text-stroke-6 "
+            className="absolute top-3 md:text-7xl xl:text-8xl text-2xl bg-gradient-to-b from-[#FFF280] to-[#7EFF5E] text-transparent bg-clip-text  text-center uppercase md:font-bold text-stroke-2 sm:text-stroke-6 "
           >
             welcome to alabay world
           </div>
-          <div className="bg-zinc-900 absolute w-screen  md:h-40 h-20 md:bottom-16 bottom-0">
+          <div className="bg-zinc-900 absolute w-screen  md:h-44 xl:h-40 h-20 md:bottom-16 bottom-0">
             <div className="text-white md:text-4xl text-xs text-center m-3">
               <div>
                 where the{" "}
@@ -52,18 +52,18 @@ export const Home = () => {
 
       {/* creating a scroll bar function */}
       <div className="flex justify-center items-center ">
-        <div className="absolute md:text-4xl text-sm  md:bg-gradient-30-bottom sm:w-[1326px]  md:bottom-[-650px] bottom-[280px]">
+        <div className="absolute md:text-4xl text-sm  md:bg-gradient-30-bottom xl:w-[96%] md:w-[95%] xl:bottom-[-650px] md:bottom-[200px] bottom-[280px]">
           <div className="bg-gradient-to-r  from-yellow-500 via-yellow-200 to-yellow-500 md:grid md:grid-cols-2 rounded-2xl rounded-b-none ">
             <div>
-              <div className="md:w-32 md:h-3 md:ml-[570px]  md:mt-4  md:bg-yellow-50 md:rounded-full"></div>
+              <div className="md:w-32 md:h-3 xl:ml-[90%] md:ml-[90%]  md:mt-4 md:bg-yellow-50 md:rounded-full"></div>
               <img src={dog} alt="dog" className="hidden md:block"/>
             </div>
-            <div className="m-14  text-center" >
-              <div className=" text-orange-500 font-sans font-black text-center md:ml-52 md:text-6xl text-sm">
+            <div className=" m-14  text-center" >
+              <div className=" text-orange-500 font-sans font-black text-center md:ml-36 xl:ml-52 md:text-4xl xl:text-6xl text-sm">
                 History Of
               </div>
-              <span className="text-white md:text-9xl text-sm md:ml-24 ">alabay</span>
-              <div className="font-sans font-bold md:text-3xl  text-sm">
+              <span className="text-white md:text-7xl xl:text-9xl text-sm md:ml-28 xl:ml-24 ">alabay</span>
+              <div className="font-sans font-bold md:text-2xl xl:text-3xl  text-sm text-justify">
                 The Central Asian Shepherd Dog, also known as Alabay, has been a
                 guardian of livestock and property for centuries. Originating
                 from Central Asia, these dogs are renowned for their courage,
@@ -80,7 +80,7 @@ export const Home = () => {
             ></div>
           </div>
 
-          <div className="absolute  bg-white w-[1326px]">
+          <div className="absolute  bg-white w-[100%]">
             <div className="hidden md:block">
             <div className="flex justify-center text-slate-600 items-center uppercase font-mono font-black text-lg  mt-11 ">
               <div className="hover:text-yellow-500 cursor-pointer">all</div>
@@ -115,7 +115,7 @@ export const Home = () => {
                   </p>
                 </div>
 
-                <div className="md:text-8xl text-2xl text-orange-600 md:text-white text-center md:mr-[850px] md:mt-11">Road Map</div>
+                <div className="md:text-8xl text-2xl text-orange-600 md:text-white text-center  xl:mr-[850px] md:mt-11">Road Map</div>
 
                 <div className="relative hidden md:block w-full h-[150px] bg-gradient-to-r  from-yellow-500 via-yellow-200 to-yellow-500">
                   <div
