@@ -1,8 +1,13 @@
 
-Alabay
+<h1 align="center">Alabay</h1>
 
+<p align="center">	
 Alabay is a frontend-only static website project built using React and Tailwind CSS.
 This project was created to enhance my coding skills and practice building responsive, modern UI layouts with React components and Tailwind utility classes.
+  <br />
+  <a href="https://alabay-jatinmehta.vercel.app/"><strong>🔗 Live Demo</strong></a> |
+  <a href="https://github.com/JatinMehta007/Alabay"><strong>🧠 Source Code</strong></a>
+</p>
 
 ✨ Features
 	•	Fully responsive static website
@@ -36,7 +41,10 @@ npm run dev
 
 📸 Screenshots
 
-(You can add screenshots of your website here to make it even cooler!)
+
+![Dashboard Screenshot](./frontend/public/dash.png) <!-- Replace with actual image path -->
+![Signup Screenshot](./frontend/public/signup.png) <!-- Replace with actual image path -->
+---
 
 🛠️ Project Purpose
 
