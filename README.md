@@ -22,7 +22,7 @@ This project was created to enhance my coding skills and practice building respo
 ## 📸 Preview
  
 ▶️ [Watch Demo video](https://alibay-jatinmehta.vercel.app/video.mp4) 
-![Signup Screenshot](./frontend/public/image.png) 
+![ Screenshot](./public/image.png) 
 ---
 
 ## 📚 Tech Stack
