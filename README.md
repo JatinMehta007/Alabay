@@ -19,6 +19,11 @@ This project was created to enhance my coding skills and practice building respo
 - ✅ Aimed at improving frontend coding practices
 
 ---
+## 📸 Preview
+ 
+![Dashboard Screenshot](./public/video.mov) <!-- Replace with actual image path -->
+<!-- ![Signup Screenshot](./frontend/public/signup.png) Replace with actual image path -->
+---
 
 ## 📚 Tech Stack
 
