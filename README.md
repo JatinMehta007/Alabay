@@ -21,8 +21,8 @@ This project was created to enhance my coding skills and practice building respo
 ---
 ## 📸 Preview
  
-![Screen Recording](https://alibay-jatinmehta.vercel.app//video.mp4) <!-- Replace with actual image path -->
-![Signup Screenshot](./frontend/public/image.png) Replace with actual image path
+▶️ [Watch Demo video](https://alibay-jatinmehta.vercel.app/video.mp4) 
+![Signup Screenshot](./frontend/public/image.png) 
 ---
 
 ## 📚 Tech Stack
