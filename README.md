@@ -17,6 +17,7 @@ This project was created to enhance my coding skills and practice building respo
 - ✅ Clean and minimal UI
 - ✅ No backend – purely frontend focused
 - ✅ Aimed at improving frontend coding practices
+- ✅ Clean and Responsive UI
 
 ---
 ## 📸 Preview
